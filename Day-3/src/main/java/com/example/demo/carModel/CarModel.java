@@ -87,24 +87,7 @@ public class CarModel {
 	public void setOwnercity(String ownercity) {
 		this.ownercity = ownercity;
 	}
-	public CarModel(int pid, String pname, String pcountry, String brandname, String plateNumber, String fueltype,
-			String milage, String speedperKm, String ownername, String ownernumber, String ownercity) {
-		super();
-		this.pid = pid;
-		this.pname = pname;
-		this.pcountry = pcountry;
-		this.brandname = brandname;
-		this.plateNumber = plateNumber;
-		this.fueltype = fueltype;
-		this.milage = milage;
-		this.speedperKm = speedperKm;
-		this.ownername = ownername;
-		this.ownernumber = ownernumber;
-		this.ownercity = ownercity;
-	}
-	public CarModel() {
-		
-	}
+	
 	
 
 }
